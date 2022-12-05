@@ -12,5 +12,5 @@ This Project Comes from Kaggle - https://www.kaggle.com/datasets/teejmahal20/air
 - Mapped out all columns that need re-mapping and listed its unique values
 
 # Todo:
-- Re-map the string data to number format
+- Research data normalization techniques 
 - experiment with knn classification or other data model approaches. 
