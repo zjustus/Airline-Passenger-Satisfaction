@@ -9,8 +9,13 @@ This Project Comes from Kaggle - https://www.kaggle.com/datasets/teejmahal20/air
 - established pandas train and test data
 - attempted nearest neighbor classification
     - This failed due to certain data columns being in a string format. Data Manipulation required
+    - This failed due to some columns missing data
 - Mapped out all columns that need re-mapping and listed its unique values
-
-# Todo:
-- Research data normalization techniques 
-- experiment with knn classification or other data model approaches. 
+- Ran statistical analysis to find all columns missing data
+  - Used the mean of that column to fill in the missing data
+- removed the ID column
+- removed the index column
+- Added Decision tree classification
+- Added Random Forest classification
+- Added XGBoost Classification
+- Compared all AI results.
